@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    
+}
+.firstsection{
+    background-image:linear-gradient(#8098ff,#242a47);
+    width:100%;
+    height:100vh;
+    text-align:center;
+    z-index:-1;
+    position:absolute;
+    background-size:cover;
+    background-position:center;}
+    
+.divimg{
+    height:30vh;
+}
+.divimg img{
+    border-radius:150px;
+    width:150px;
+    height:150px;
+    margin-top:20px;
+    margin-left:20px;
+    float:left;
+    
+}
+.div0 h1{
+    font-size:200px;
+    font-family: 'Sedgwick Ave Display', cursive;
+    font-weight:bolder;
+    text-shadow:3px 3px white;
+    color:linear-gradient(brown,black) ;   
+    animation:lakhpati 3s infinite alternate; 
+     
+}
+@keyframes lakhpati{
+    from{margin-right:-1px;}
+    to{margin-right:100px;}
+}
+#sideNav{
+    z-index:1;        
+    position:fixed;
+    height:100vh;
+    width:50%;
+    left:1000px;
+    transition:0.5s;
+   
+    
+    background-image:linear-gradient(#6a78ff,#282d60);
+    
+}
+.navdiv ul{
+    list-style:none;
+    margin-top:150px;
+}
+.navdiv ul li{
+    margin-top:80px;
+}
+.navdiv ul li a{
+    text-decoration:none;
+    font-size:45px;
+    width:100%;
+    color:black;
+    font-weight:bold;
+    
+} 
+#menuBtn{
+    z-index:2;
+    left:840px;
+    position:fixed;
+    margin-top:40px;
+} 
+#close{
+    width:80px;
+    height:80px;
+    z-index:4;
+    position:fixed;
+    top:50px;
+    left:1000px;
+    
+}    
+#menu{
+    z-index:3;
+    position:fixed;
+}
+
+}
+@keyframes lakhpati{
+    from{margin-right:0px;}
+    to{margin-right:100px;}
+}

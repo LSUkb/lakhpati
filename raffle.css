@@ -1,0 +1,107 @@
+
+*{
+    margin:0;
+    
+}
+#rafflesection-first{
+    width:100%;
+    height:auto;
+   z-index:-1;
+   position:absolute;
+   background:black;
+   margin-top:50px;
+  }
+#firstimg{
+    height:40vh;
+    width:100%;
+    margin-bottom:none;
+   
+}
+#secimg{
+    height:60vh;
+    width: 100%;
+   
+    
+}
+#Steps{
+    z-index:1;
+    position:absolute;
+    margin-top:300px;
+    margin-left:100px;
+    text-align:center;
+   padding-left:15px;
+   padding-right:15px; background-image:linear-gradient(#bc1f27,#92181ef7);
+   border-radius:7px;
+    
+}
+#link{
+    margin-top:690px;
+    z-index:3;
+    position:absolute;
+    margin-left:290px;
+    
+}
+#link a{
+    text-decoration:none;
+    background-color:#000151;
+    padding-top:5px;
+    padding-bottom:5px;
+    padding-right:15px;
+    padding-left:15px;
+    font-size:20px;
+    color:#4740ffb6;
+    border-radius:5px;
+}
+#rules{
+    
+    position:absolute;
+    background: black;
+    height:auto;
+    width: 100%;
+    margin-top:0;
+    padding:0;
+    
+    
+}
+#rules img{
+    width:100%;
+    height:40vb;
+}
+#index{
+    position:fixed;
+    height:50px;
+    background: #687bcffa;
+    z-index:4;
+    width:100%;
+    
+}
+#divhow{
+    background: white;
+    display:inline-block;
+    padding-top:8px;
+    font-size:20px;
+    font-weight:bold;
+    height: 42px;
+}
+#divhow a{
+    text-decoration:none;
+    color:black;
+    
+}
+#divrule{
+     background: black;
+    display:inline-block;
+    padding-top:8px;
+    font-size:20px;
+    font-weight:bold;
+    height: 42px;
+    float:right;
+    padding-right:53px;
+    padding-left:53px;
+    
+}
+#divrule a{
+    text-decoration:none;
+    color: white;
+    
+}
